@@ -1,4 +1,4 @@
-load HAR.mat
+load Dataset/Synthetic.mat
 % temp = art4{1,1};
 % art4{1,1} = art4{3,1};
 % art4{3,1} = temp;
