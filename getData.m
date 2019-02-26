@@ -1,17 +1,4 @@
 load Datasets/Synthetic.mat
-% temp = art4{1,1};
-% art4{1,1} = art4{3,1};
-% art4{3,1} = temp;
-% for i = 1 : size(art4,1)
-%     temp = art4{i,1};
-%     for j = 1 : size(temp,2)
-%         cur = temp(:,j);
-%         cur = cur';
-%         cur = mapminmax(cur,-1,1);
-%         temp(:,j) = cur';
-%     end
-%     art4{i,1} = temp;
-% end
 newevaluation=[];
 Input_dataset=art4;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Parametres%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
