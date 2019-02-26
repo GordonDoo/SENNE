@@ -1,4 +1,4 @@
-load Dataset/Synthetic.mat
+load Datasets/Synthetic.mat
 % temp = art4{1,1};
 % art4{1,1} = art4{3,1};
 % art4{3,1} = temp;
@@ -17,7 +17,7 @@ Input_dataset=art4;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Parametres%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 train_num=2;  %Known Classes
 newclass_num=1;
-num_per_class=800;
+num_per_class=2000;
 alltraindata=[];
 alltraindatalabel=[];
 streamdata=[];
